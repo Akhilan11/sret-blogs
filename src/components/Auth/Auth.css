@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+  }
+  
+.Auth {
+    padding: 1%;
+    text-align: center;
+}
+
+.Auth h1{
+    color: #f1356d;
+}
+
+.content {
+  border: 3px solid #f2f2f2;
+  align-items: center;
+  width: 100%;
+}
+
+/* Signup */
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .create label {
+    text-align: left;
+    display: block;
+  }
+  .create h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f2f2f2;
+
+  }
+  .create input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .create button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 400px;
+  }
+
+  .create .signin{
+    text-align: center;
+  }
+
+  .create .signin p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+    /* padding-right: 1rem; */
+    margin-right: 2rem;
+  }
+
+  .or {
+    text-align: center;
+    padding-top:2rem ;
+  }
+
+  .add {
+    border: 3px solid #f2f2f2;
+    /* align-items: center; */
+    max-width: 41%;
+  }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  max-width: 100%;
+  
+  padding: 10px;
+  /* display: flex; */
+  align-items: center;
+  /* max-width: 600px; */
+}
+
+.head {
+  padding :4rem;
+  width: 80%;
+}
+
+.head .title {
+  float: left;
+}
+
+.head .option{
+  float: right;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  padding: 6px 10px;
+  margin: 10px 0;
+}
